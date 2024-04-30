@@ -1,0 +1,14 @@
+cz:
+  auth:
+    registration: Zaregistrujte se do svého účtu
+    email: Email
+    password: Heslo
+    password_confirmation: Potvrzení hesla
+    register: Registrovat
+    or: nebo
+    already_registered: Již máte účet?
+    login: Přihlásit se
+    sign_in: Přihlásit se do svého účtu
+    remember_me: Zapamatovat si mě
+    not_member: Nemáte účet?
+
