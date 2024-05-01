@@ -12,5 +12,10 @@ cz:
     remember_me: Zapamatovat si mě
     not_member: Nemáte účet?
     sign_out: Odhlásit se
+  stats:
+    account_overview: Přehled účtu
+    subscription: Předplatné
+    testimonials_count: Počet hodnocení
+    video_testimonials_count: Počet video hodnocení
 
 
