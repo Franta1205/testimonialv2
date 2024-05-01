@@ -4,11 +4,13 @@ cz:
     email: Email
     password: Heslo
     password_confirmation: Potvrzení hesla
-    register: Registrovat
+    register: Zaregistrovat se
     or: nebo
     already_registered: Již máte účet?
     login: Přihlásit se
     sign_in: Přihlásit se do svého účtu
     remember_me: Zapamatovat si mě
     not_member: Nemáte účet?
+    sign_out: Odhlásit se
+
 
