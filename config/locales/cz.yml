@@ -19,5 +19,14 @@ cz:
     video_testimonials_count: Počet video hodnocení
   workspaces:
     title: Pracovní prostory
+    form_title: Název
+    header_title: Hlavička
+    custom_message: Vlastní zpráva
+    collection_type: Typ kolekce
+    submit: vytvořit pracovní prostor
+    collection_type:
+      text: Text
+      video: Video
+      both: Text & Video
 
 
