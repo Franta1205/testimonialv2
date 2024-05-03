@@ -4,7 +4,8 @@ class WorkspacesController < ApplicationController
   end
 
   def create
-    @workspace = current_user.workspaces.new(workspace_params)
+    number = current_user.workspaces.count
+    @workspace = current_user.workspaces.new(title: "Workspace ##{number + 1}")
     if @workspace.save
       redirect_to action: :index
     else

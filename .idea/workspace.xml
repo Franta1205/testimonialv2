@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1221176a-5bfc-464c-977d-2a4079471567" name="Changes" comment="" />
+    <list default="true" id="1221176a-5bfc-464c-977d-2a4079471567" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/workspaces_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/workspaces_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/workspaces/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/workspaces/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/workspaces/partials/_index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/workspaces/partials/_index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,6 +147,8 @@
       <workItem from="1714246845866" duration="5326000" />
       <workItem from="1714416877308" duration="3518000" />
       <workItem from="1714505418806" duration="18413000" />
+      <workItem from="1714679127532" duration="5306000" />
+      <workItem from="1714765670735" duration="3677000" />
     </task>
     <servers />
   </component>
@@ -155,6 +167,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/testimonialv2@testimonialv2.rcov" NAME="testimonialv2 Coverage Results" MODIFIED="1714585074761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="testimonialv2" />
+    <SUITE FILE_PATH="coverage/testimonialv2@testimonialv2.rcov" NAME="testimonialv2 Coverage Results" MODIFIED="1714680706940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="testimonialv2" />
   </component>
 </project>
