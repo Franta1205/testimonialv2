@@ -24,6 +24,9 @@ cz:
     custom_message: Vlastní zpráva
     collection_type: Typ kolekce
     submit: vytvořit pracovní prostor
+    create:
+        success: Pracovní prostor byl úspěšně vytvořen
+        error: Chyba při vytváření pracovního prostoru
     collection_type:
       text: Text
       video: Video

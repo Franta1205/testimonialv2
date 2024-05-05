@@ -7,9 +7,10 @@ class WorkspacesController < ApplicationController
     number = current_user.workspaces.count
     @workspace = current_user.workspaces.new(title: "Workspace ##{number + 1}")
     if @workspace.save
+      flash[:success] = t('workspaces.create.success')
       redirect_to action: :index
     else
-      h = false
+      flash[:error] = t('workspaces.create.error')
     end
   end
 
