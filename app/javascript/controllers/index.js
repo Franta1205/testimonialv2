@@ -6,5 +6,7 @@ import { application } from "./application"
 
 import HelloController from "./hello_controller"
 import VisibilityController from "./visibility_controller"
+import FlashVisibilityController from "./flash_visibility_controller";
 application.register("hello", HelloController)
 application.register("visibility", VisibilityController)
+application.register("flash-visibility", FlashVisibilityController)

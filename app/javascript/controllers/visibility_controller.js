@@ -28,8 +28,4 @@ export default class extends Controller {
         // Toggle the opacity of the icon
         pwIcon.style.opacity = pwIcon.style.opacity === '0.5' ? '1' : '0.5';
     }
-
-    toggleFleshMessages(){
-        this.element.classList.toggle('hidden');
-    }
 }
