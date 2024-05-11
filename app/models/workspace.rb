@@ -1,5 +1,6 @@
 class Workspace < ApplicationRecord
   belongs_to :user
+  has_many :testimonials
 
   validates :title, presence: true
 
