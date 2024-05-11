@@ -12,7 +12,9 @@
   </head>
   <div class="min-h-full">
     <% if current_user %>
-      <%= render 'layouts/navbar' %>
+      <% if show_index_nav? %>
+        <%= render 'layouts/navbar' %>
+      <% end %>
     <% end %>
     <% flash.each do |message_type, message| %>
       <div data-controller="flash-visibility">
@@ -47,9 +49,9 @@
       </div>
     <% end %>
     <body class="h-full bg-gray-50">
-    <div class="py-10">
+    <div class="<%= show_index_nav? ? 'py-10' : '' %>">
       <main>
-        <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="<%= show_index_nav? ? 'mx-auto max-w-7xl sm:px-6 lg:px-8' : '' %>">
           <%= yield %>
         </div>
       </main>
