@@ -7,6 +7,7 @@ class CreateTestimonials < ActiveRecord::Migration[7.0]
       t.text :email
       t.boolean :permission
       t.integer :rating
+      t.boolean :favorite, default: false
 
       t.timestamps
     end

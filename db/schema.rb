@@ -29,6 +29,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_05_11_201716) do
     t.text "email"
     t.boolean "permission"
     t.integer "rating"
+    t.boolean "favorite", default: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["workspace_id"], name: "index_testimonials_on_workspace_id"

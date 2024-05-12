@@ -16,6 +16,7 @@ class WorkspacesController < ApplicationController
 
   def show
     @workspace = current_user.workspaces.find(params[:id])
+    @testimonials = @workspace.testimonials
   end
 
   def destroy

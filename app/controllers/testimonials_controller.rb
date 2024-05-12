@@ -16,6 +16,20 @@ class TestimonialsController < ApplicationController
     end
   end
 
+  def toggle_favorite
+    @testimonial = Testimonial.find(params[:id])
+    @testimonial.update(favorite: !@testimonial.favorite)
+    f = @testimonial.favorite
+    d = false
+    redirect_to workspace_path(@testimonial.workspace)
+  end
+
+  def destroy
+    @testimonial = Testimonial.find(params[:id])
+    @testimonial.destroy
+    redirect_to workspace_path(@testimonial.workspace)
+  end
+
   private
 
   def testimonial_params
