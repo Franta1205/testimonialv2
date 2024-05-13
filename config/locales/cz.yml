@@ -32,7 +32,13 @@ cz:
       video: Video
       both: Text & Video
   side_nav:
-    testimonials: Hodnocení
+    tools: Nástroje
+    upload_testimonial: Nahrát hodnocení
+  testimonials:
+    form:
+      title: Jméno
+      content: Obsah
+      email: Email
 
 
 

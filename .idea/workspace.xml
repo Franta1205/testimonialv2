@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1221176a-5bfc-464c-977d-2a4079471567" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/testimonials_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/testimonials_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/workspaces_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/workspaces_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/testimonial.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/testimonial.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/workspaces/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/workspaces/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20240511201716_create_testimonials.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20240511201716_create_testimonials.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

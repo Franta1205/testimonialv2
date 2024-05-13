@@ -1,6 +1,5 @@
 class TestimonialsController < ApplicationController
   before_action :set_workspace, only: [:new, :create]
-  skip_before_action :authenticate_user!, only: [:new, :create]
 
   def new
     @testimonial = Testimonial.new

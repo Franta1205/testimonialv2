@@ -1,37 +1,11 @@
-<h1>New Testimonial</h1>
-
-<%= form_with(model: [@workspace, @testimonial], local: true) do |form| %>
-  <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name %>
+<div>
+  <%= render 'layouts/side_navbar' %>
+  <div class="lg:pl-72">
+    <%= render 'layouts/search_nav' %>
+    <main class="py-10">
+      <div class="px-4 sm:px-6 lg:px-8">
+        <%= render 'testimonials/form' %>
+      </div>
+    </main>
   </div>
-
-  <div class="field">
-    <%= form.label :content %>
-    <%= form.text_area :content %>
-  </div>
-
-  <div class="field">
-    <%= form.label :email %>
-    <%= form.text_field :email %>
-  </div>
-
-  <div class="field">
-    <%= form.label :rating %>
-    <%= form.number_field :rating %>
-  </div>
-
-  <div class="field">
-    <%= form.label :photo %>
-    <%= form.file_field :photo %>
-  </div>
-
-  <div class="field">
-    <%= form.label :approved %>
-    <%= form.check_box :approved %>
-  </div>
-
-  <div class="actions">
-    <%= form.submit %>
-  </div>
-<% end %>
+</div>
