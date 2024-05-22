@@ -1,6 +1,7 @@
 class WorkspacesController < ApplicationController
   def index
     @workspaces = current_user.workspaces
+    @testimonials_count = @workspaces.map(&:testimonials).flatten.count
   end
 
   def create

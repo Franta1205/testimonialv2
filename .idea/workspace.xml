@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1221176a-5bfc-464c-977d-2a4079471567" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1221176a-5bfc-464c-977d-2a4079471567" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,6 +141,7 @@
       <workItem from="1714765670735" duration="4988000" />
       <workItem from="1714830055658" duration="1382000" />
       <workItem from="1714925552495" duration="6031000" />
+      <workItem from="1715619367365" duration="5865000" />
     </task>
     <servers />
   </component>
@@ -161,6 +160,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/testimonialv2@testimonialv2.rcov" NAME="testimonialv2 Coverage Results" MODIFIED="1715529559618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="testimonialv2" />
+    <SUITE FILE_PATH="coverage/testimonialv2@testimonialv2.rcov" NAME="testimonialv2 Coverage Results" MODIFIED="1715619391837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="testimonialv2" />
   </component>
 </project>
