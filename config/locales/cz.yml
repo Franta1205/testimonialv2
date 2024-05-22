@@ -34,6 +34,7 @@ cz:
   side_nav:
     tools: Nástroje
     upload_testimonial: Nahrát hodnocení
+    recieve_testimonial: Přijmout hodnocení
   testimonials:
     form:
       title: Jméno
