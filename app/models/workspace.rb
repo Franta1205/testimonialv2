@@ -1,7 +1,7 @@
 class Workspace < ApplicationRecord
   belongs_to :user
-  has_many :testimonials
-  has_many :forms
+  has_many :testimonials, dependent: :destroy
+  has_many :forms, dependent: :destroy
 
   validates :title, presence: true
 

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1221176a-5bfc-464c-977d-2a4079471567" name="Changes" comment="" />
+    <list default="true" id="1221176a-5bfc-464c-977d-2a4079471567" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/workspace.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/workspace.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +51,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/controllers" />
+    </key>
+  </component>
   <component name="RunManager" selected="Rails.testimonialv2">
     <configuration name="testimonialv2" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="testimonialv2" />
@@ -142,6 +151,8 @@
       <workItem from="1714830055658" duration="1382000" />
       <workItem from="1714925552495" duration="6031000" />
       <workItem from="1715619367365" duration="5865000" />
+      <workItem from="1716396970601" duration="4557000" />
+      <workItem from="1716675775691" duration="348000" />
     </task>
     <servers />
   </component>
@@ -160,6 +171,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/testimonialv2@testimonialv2.rcov" NAME="testimonialv2 Coverage Results" MODIFIED="1715619391837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="testimonialv2" />
+    <SUITE FILE_PATH="coverage/testimonialv2@testimonialv2.rcov" NAME="testimonialv2 Coverage Results" MODIFIED="1716675827245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="testimonialv2" />
   </component>
 </project>
