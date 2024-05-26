@@ -35,6 +35,13 @@ cz:
     tools: Nástroje
     upload_testimonial: Nahrát hodnocení
     recieve_testimonial: Přijmout hodnocení
+    dashboard: Přehled
+  testimonial_form:
+    start_with_recieving_testimonials: Začněte s přijímáním hodnocení
+    create_landing_page: Vytvořte si vlastní stránku pro přijímání hodnocení
+    title: Název
+    questions: Otázky
+    custom_message: Vlastní zpráva
   testimonials:
     form:
       title: Jméno

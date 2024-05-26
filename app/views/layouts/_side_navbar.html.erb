@@ -157,9 +157,23 @@
             <ul role="list" class="-mx-2 space-y-1">
               <li>
                 <!-- Current: "bg-gray-50 text-indigo-600", Default: "text-gray-700 hover:text-indigo-600 hover:bg-gray-50" -->
+                <%= link_to workspace_path(@workspace), class: "bg-gray-50 text-indigo-600 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold" do %>
+                  <i class="material-icons cursor-pointer text-gray-500">home</i>
+                  <%= t('side_nav.dashboard') %>
+                <% end %>
+              </li>
+              <li>
+                <!-- Current: "bg-gray-50 text-indigo-600", Default: "text-gray-700 hover:text-indigo-600 hover:bg-gray-50" -->
                 <%= link_to new_workspace_testimonial_path(@workspace), class: "bg-gray-50 text-indigo-600 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold" do %>
                   <i class="material-icons cursor-pointer text-gray-500">upload</i>
                   <%= t('side_nav.upload_testimonial') %>
+                <% end %>
+              </li>
+              <li>
+                <!-- Current: "bg-gray-50 text-indigo-600", Default: "text-gray-700 hover:text-indigo-600 hover:bg-gray-50" -->
+                <%= link_to new_workspace_form_path(@workspace), class: "bg-gray-50 text-indigo-600 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold" do %>
+                  <i class="material-icons cursor-pointer text-gray-500">reviews</i>
+                  <%= t('side_nav.recieve_testimonial') %>
                 <% end %>
               </li>
             </ul>

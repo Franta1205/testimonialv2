@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1221176a-5bfc-464c-977d-2a4079471567" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/workspace.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/workspace.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +152,8 @@
       <workItem from="1714925552495" duration="6031000" />
       <workItem from="1715619367365" duration="5865000" />
       <workItem from="1716396970601" duration="4557000" />
-      <workItem from="1716675775691" duration="348000" />
+      <workItem from="1716675775691" duration="631000" />
+      <workItem from="1716676488168" duration="6000" />
     </task>
     <servers />
   </component>

@@ -1,1 +1,11 @@
-<h1>this is new</h1>
+<div>
+  <%= render 'layouts/side_navbar' %>
+  <div class="lg:pl-72">
+    <%= render 'layouts/search_nav' %>
+    <main class="py-10">
+      <div class="px-4 sm:px-6 lg:px-8">
+        <%= render 'form' %>
+      </div>
+    </main>
+  </div>
+</div>
