@@ -42,6 +42,12 @@ cz:
     title: Název
     questions: Otázky
     custom_message: Vlastní zpráva
+    create: Vytvořit
+    custom_message: Vlastní zpráva
+    custom_message_placeholder: Zde můžete napsat zprávu pro vaše zákazníky
+    logo: Logo
+    questions: Otázky
+    questions_placeholder: Zde můžete položit otázky, svým zákazníkům
   testimonials:
     form:
       title: Jméno
