@@ -48,6 +48,7 @@ cz:
     logo: Logo
     questions: Otázky
     questions_placeholder: Zde můžete položit otázky, svým zákazníkům
+    create_testimonial: Vytvořit hodnocení
   testimonials:
     form:
       title: Jméno

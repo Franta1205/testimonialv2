@@ -1,5 +1,5 @@
 class FormsController < ApplicationController
-  before_action :set_workspace, only: [:new, :create]
+  before_action :set_workspace, only: [:new, :create, :show]
   skip_before_action :authenticate_user!, only: [:show]
   def new
     @form = Form.new
@@ -24,8 +24,13 @@ class FormsController < ApplicationController
     @form = Form.find(params[:id])
   end
 
+  def new_testimonial
+    @form = Form.find(params[:id])
+    @testimonial = Testimonial.new
+  end
+
   def destroy
-    @form = @workspace.forms.find(params[:id])
+    @form = Form.find(params[:id])
     @form.destroy
     redirect_to action: :new
   end

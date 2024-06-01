@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1221176a-5bfc-464c-977d-2a4079471567" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/form_side_component.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/form_side_component.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/forms_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/forms_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/forms/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/forms/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/cz.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/cz.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +158,7 @@
       <workItem from="1716676488168" duration="6000" />
       <workItem from="1716737112524" duration="4473000" />
       <workItem from="1717001586728" duration="6863000" />
-      <workItem from="1717225408600" duration="10918000" />
+      <workItem from="1717225408600" duration="15894000" />
     </task>
     <servers />
   </component>
@@ -176,6 +177,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/testimonialv2@testimonialv2.rcov" NAME="testimonialv2 Coverage Results" MODIFIED="1717233553677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="testimonialv2" />
+    <SUITE FILE_PATH="coverage/testimonialv2@testimonialv2.rcov" NAME="testimonialv2 Coverage Results" MODIFIED="1717242848594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="testimonialv2" />
   </component>
 </project>
