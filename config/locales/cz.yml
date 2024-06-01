@@ -49,6 +49,7 @@ cz:
     questions: Otázky
     questions_placeholder: Zde můžete položit otázky, svým zákazníkům
     create_testimonial: Vytvořit hodnocení
+    write_testimonial: Napište vaše hodnocení pro
   testimonials:
     form:
       title: Jméno
