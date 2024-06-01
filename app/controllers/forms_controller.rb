@@ -1,5 +1,5 @@
 class FormsController < ApplicationController
-  before_action :set_workspace
+  before_action :set_workspace, only: [:new, :create, :destroy]
   def new
     @form = Form.new
   end
@@ -11,6 +11,18 @@ class FormsController < ApplicationController
     else
       redirect_to action: :new
     end
+  end
+
+  def update
+    @form = Form.find(params[:id])
+    @form.update(published: !@form.published)
+    redirect_to action: :new
+  end
+
+  def destroy
+    @form = @workspace.forms.find(params[:id])
+    @form.destroy
+    redirect_to action: :new
   end
 
   private

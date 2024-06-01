@@ -77,3 +77,5 @@ end
 gem "devise", "~> 4.9"
 
 gem "render_build_setup", "~> 0.0.1"
+
+gem "view_component", "~> 3.12"

@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   root 'workspaces#index'
 
   resources :workspaces, only: [:create, :destroy, :show] do
-    resources :forms, only: [:new, :create]
+    resources :forms, only: [:new, :create, :destroy, :update]
     resources :testimonials, only: [:new, :create, :destroy] do
       member do
         post :toggle_favorite

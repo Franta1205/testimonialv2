@@ -53,6 +53,10 @@ cz:
       title: Jméno
       content: Obsah
       email: Email
+  general:
+    unpublish: Skrýt
+    publish: Zveřejnit
+    delete: Smazat
 
 
 
