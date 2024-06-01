@@ -1,7 +1,8 @@
 <div class="h-screen flex items-center justify-center divide-y divide-gray-900/10 max-auto">
   <div class="grid grid-cols-1 gap-x-8 gap-y-8">
 
-    <form class="bg-white shadow-sm ring-1 ring-gray-900/5 sm:rounded-xl md:col-span-2">
+      <%= form_with(model: [@workspace, @form, @testimonial], url: create_testimonial_workspace_form_path(@workspace, @form), local: true, html: { class: "bg-white shadow-sm ring-1 ring-gray-900/5 sm:rounded-xl md:col-span-2" }) do|form| %>
+      <%= form.hidden_field :rating, value: 5 %>
       <div class="px-4 py-6 sm:p-8">
         <div class="grid max-w-2xl grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
 
@@ -12,19 +13,19 @@
           </div>
 
           <div class="col-span-full">
-            <label for="about" class="block text-sm font-medium leading-6 text-gray-900">Name</label>
+            <%= form.label :name, t('testimonials.form.title') ,class: "block text-sm font-medium leading-6 text-gray-900" %>
             <div class="mt-2">
               <div class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
-                <input type="text" name="website" id="website" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6">
+                <%= form.text_field :name, required: true, class: "block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" %>
               </div>
             </div>
           </div>
 
           <div class="col-span-full">
-            <label for="about" class="block text-sm font-medium leading-6 text-gray-900">Email</label>
+            <%= form.label :email, t('testimonials.form.email') ,class: "block text-sm font-medium leading-6 text-gray-900" %>
             <div class="mt-2">
               <div class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
-                <input type="text" name="website" id="website" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6">
+                <%= form.text_field :email, required: true, class: "block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" %>
               </div>
             </div>
           </div>
@@ -49,18 +50,21 @@
           </div>
 
           <div class="col-span-full">
-            <label for="about" class="block text-sm font-medium leading-6 text-gray-900">Content</label>
+            <%= form.label :content, t('testimonials.form.content') ,class: "block text-sm font-medium leading-6 text-gray-900" %>
             <div class="mt-2">
-              <textarea id="about" name="about" rows="3" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+              <%= form.text_area :content, required: true, class: "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" %>
             </div>
             <p class="mt-3 text-sm leading-6 text-gray-600"><%= t('testimonial_form.write_testimonial') + " #{@form.title}" %></p>
+          </div>
+          <div class="flex items-center col-span-full">
+            <%= form.check_box :agree_to_terms, required: true, class: "h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600" %>
+            <%= form.label :agree_to_terms, t('testimonials.form.agree_to_terms'),class: "ml-2 text-sm leading-6 text-gray-600" %>
           </div>
         </div>
       </div>
       <div class="flex items-center justify-end gap-x-6 border-t border-gray-900/10 px-4 py-4 sm:px-8">
-        <button type="button" class="text-sm font-semibold leading-6 text-gray-900">Cancel</button>
-        <button type="submit" class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Save</button>
+        <%= form.submit t('general.submit'), class: "rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" %>
       </div>
-    </form>
+      <% end %>
   </div>
 </div>

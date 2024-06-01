@@ -18,8 +18,6 @@ class TestimonialsController < ApplicationController
   def toggle_favorite
     @testimonial = Testimonial.find(params[:id])
     @testimonial.update(favorite: !@testimonial.favorite)
-    f = @testimonial.favorite
-    d = false
     redirect_to workspace_path(@testimonial.workspace)
   end
 
@@ -32,7 +30,7 @@ class TestimonialsController < ApplicationController
   private
 
   def testimonial_params
-    params.require(:testimonial).permit(:content, :name, :email, :permission, :rating)
+    params.require(:testimonial).permit(:content, :name, :email, :agree_to_terms, :rating)
   end
 
   def set_workspace

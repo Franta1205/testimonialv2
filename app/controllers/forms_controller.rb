@@ -1,6 +1,6 @@
 class FormsController < ApplicationController
-  before_action :set_workspace, only: [:new, :create, :show]
-  skip_before_action :authenticate_user!, only: [:show]
+  before_action :set_workspace, only: [:new, :create, :show, :new_testimonial, :create_testimonial]
+  skip_before_action :authenticate_user!, only: [:show, :create_testimonial, :new_testimonial]
   def new
     @form = Form.new
   end
@@ -29,6 +29,16 @@ class FormsController < ApplicationController
     @testimonial = Testimonial.new
   end
 
+  def create_testimonial
+    @testimonial = Testimonial.new(testimonial_params)
+    @testimonial.workspace = @workspace
+    if @testimonial.save
+      f = false
+    else
+      f = true
+    end
+  end
+
   def destroy
     @form = Form.find(params[:id])
     @form.destroy
@@ -41,6 +51,10 @@ class FormsController < ApplicationController
     params.require(:form).permit(:title, :custom_message).tap do |permitted_params|
       permitted_params[:questions] = params[:form][:questions].values
     end
+  end
+
+  def testimonial_params
+    params.require(:testimonial).permit(:name, :email, :content, :agree_to_terms, :rating)
   end
 
   def set_workspace

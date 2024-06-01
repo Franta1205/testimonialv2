@@ -55,10 +55,12 @@ cz:
       title: Jméno
       content: Obsah
       email: Email
+      agree_to_terms: Souhlasím s podmínkami
   general:
     unpublish: Skrýt
     publish: Zveřejnit
     delete: Smazat
+    submit: Odeslat
 
 
 
