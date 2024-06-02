@@ -7,6 +7,7 @@ Rails.application.routes.draw do
       member do
         get :new_testimonial
         post :create_testimonial
+        get :testimonial_success_page
       end
     end
     resources :testimonials, only: [:new, :create, :destroy] do

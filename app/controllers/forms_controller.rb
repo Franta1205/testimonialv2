@@ -33,10 +33,15 @@ class FormsController < ApplicationController
     @testimonial = Testimonial.new(testimonial_params)
     @testimonial.workspace = @workspace
     if @testimonial.save
-      f = false
+      redirect_to action: :testimonial_success_page
     else
-      f = true
+      flash[:error] = @testimonial.errors.full_messages.join(', ')
+      redirect_to action: :new_testimonial
     end
+  end
+
+  def testimonial_success_page
+
   end
 
   def destroy
