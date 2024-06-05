@@ -14,6 +14,9 @@ Rails.application.routes.draw do
       member do
         post :toggle_favorite
       end
+      collection do
+        get :wall_of_love
+      end
     end
   end
 end

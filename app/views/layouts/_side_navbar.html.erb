@@ -177,6 +177,13 @@
                   <%= t('side_nav.recieve_testimonial') %>
                 <% end %>
               </li>
+              <li>
+                <!-- Current: "bg-gray-50 text-indigo-600", Default: "text-gray-700 hover:text-indigo-600 hover:bg-gray-50" -->
+                <%= link_to wall_of_love_workspace_testimonials_path(@workspace), class: "hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold" do %>
+                  <i class="material-icons cursor-pointer text-gray-500">reviews</i>
+                  <%= t('side_nav.wall_of_love') %>
+                <% end %>
+              </li>
             </ul>
           </li>
           <li class="mt-auto">

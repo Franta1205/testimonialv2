@@ -36,6 +36,7 @@ cz:
     upload_testimonial: Nahrát hodnocení
     recieve_testimonial: Přijmout hodnocení
     dashboard: Přehled
+    wall_of_love: Wall of love
   testimonial_form:
     start_with_recieving_testimonials: Začněte s přijímáním hodnocení
     create_landing_page: Vytvořte si vlastní stránku pro přijímání hodnocení
@@ -61,6 +62,8 @@ cz:
     publish: Zveřejnit
     delete: Smazat
     submit: Odeslat
+  wall_of_love:
+    we_worked_with_many_amazing_people: Pracovali jsme s mnoha úžasnými lidmi
 
 
 

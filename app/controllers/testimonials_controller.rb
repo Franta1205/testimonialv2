@@ -1,8 +1,12 @@
 class TestimonialsController < ApplicationController
-  before_action :set_workspace, only: [:new, :create]
+  before_action :set_workspace, only: [:new, :create, :wall_of_love]
 
   def new
     @testimonial = Testimonial.new
+  end
+
+  def wall_of_love
+    @testimonials = @workspace.testimonials.where(favorite: true)
   end
 
   def create
